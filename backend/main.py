@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 # ---------------- GEMINI ----------------
-API_KEY = "AIzaSyCD9uqSMbU6erc5QBRD00lV9RbOQr9JI1o"
+API_KEY = "Enter your api key"
 client = genai.Client(api_key=API_KEY)
 
 # ---------------- CSV LOAD ----------------
